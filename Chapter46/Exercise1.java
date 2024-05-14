@@ -12,13 +12,14 @@ public class Exercise1
     len = word.length();
 
     HelloObject anObject = new HelloObject();
-    
+    //Sends the input and its length to the HelloObject class
     anObject.speak(len, word);
   }
 }
 
 class HelloObject
 {
+  //Gets the parameters needed to repeat the input
   public void speak(int a, String word)
   {
     for(int i = 0; i < a; i++)
