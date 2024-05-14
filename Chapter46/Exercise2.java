@@ -3,16 +3,21 @@ import java.util.Scanner;
 public class Exercise2 {
     public static void main(String[] args) {
         HelloObject anObject = new HelloObject();
-        anObject.speak();
+        anObject.speakMorning();
+        anObject.speakEvening();
     }
 }
 
 class HelloObject
 {
-  public void speak()
+  //Morning greeting
+  public void speakMorning()
   {
     System.out.println("Good morning World!");
+  }
+  //Evening greeting
+  public void speakEvening()
+  {
     System.out.println("Good evening World!");
   }
 }
-
