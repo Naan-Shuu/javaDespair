@@ -16,6 +16,7 @@ class HelloObject
 {
   public void speak(String greet)
   {
+    //Repeats the inputted string
     System.out.println(greet);
   }
 }
